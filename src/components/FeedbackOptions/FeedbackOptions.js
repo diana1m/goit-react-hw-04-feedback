@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import { Button, Wrapper } from './FeedbackOptions.styled';
 const smile = ["😀", "😐", "😡"]
+
 export const FeedbackOptions = ({options, onLeaveFeedback}) => {
     return(
         <Wrapper>
